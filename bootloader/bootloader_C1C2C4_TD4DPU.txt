@@ -1,0 +1,11 @@
+#define USB_DM 1 // USB_DM is the physical USB D+ Pin!
+#define USB_DP 2 // USB_DP is the physical USB D- Pin!
+#define USB_DPU 4 // USB_DPU feeds the 1.5K Pull-Up on USB D- Pin! Comment out if not used / tied to 3V3!
+#define USB_PORT C // Pins on PORT A, C or D
+
+#define DISABLE_BOOTLOAD
+#define BOOTLOADER_BTN_PORT D
+#define BOOTLOADER_BTN_PIN 4
+#define BOOTLOADER_BTN_TRIG_LEVEL 0 // 1 = HIGH; 0 = LOW
+#define BOOTLOADER_BTN_PULL 1 // 1 = Pull-Up; 0 = Pull-Down; Optional, comment out for floating input
+#define BOOTLOADER_TIMEOUT_PWR 0

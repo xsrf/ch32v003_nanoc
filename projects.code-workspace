@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "root"
+		},
+		{
+			"path": "bootloader"
+		},
+		{
+			"path": "code_rainbow"
+		},
+		{
+			"path": "code_mousewiggle"
+		}
+	],
+	"settings": {}
+}
