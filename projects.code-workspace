@@ -8,10 +8,13 @@
 			"path": "bootloader"
 		},
 		{
-			"path": "code_rainbow"
+			"path": "code_blink"
 		},
 		{
 			"path": "code_mousewiggle"
+		},
+		{
+			"path": "code_rainbow"
 		}
 	],
 	"settings": {}
